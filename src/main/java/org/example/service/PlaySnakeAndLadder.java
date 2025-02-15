@@ -1,4 +1,4 @@
-package org.example;
+package org.example.service;
 
 import org.example.entities.Dice;
 import org.example.entities.Player;
