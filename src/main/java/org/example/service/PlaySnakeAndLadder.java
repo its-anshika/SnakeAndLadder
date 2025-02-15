@@ -55,5 +55,5 @@ public class PlaySnakeAndLadder {
         }
         return "No one";
     }
-};
+}
 
