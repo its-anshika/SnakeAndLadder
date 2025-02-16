@@ -20,7 +20,7 @@ public class Main {
         int numberOfPlayers = scan.nextInt();
         while(numberOfPlayers>0){
             String name = "Player"+ id;
-            Player player = new Player(name);
+            Player player = new Player(name, id);
             allPlayers.offer(player);
             playersCurrentPosition.put(name,0);
             numberOfPlayers--;
